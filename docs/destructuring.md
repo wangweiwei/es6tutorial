@@ -172,7 +172,7 @@ console.log(x, y) // 1, 5
 
 var x;
 {x} = {x:1};
-// SyntaxError: syntax error
+// SyntaxError: syntax error（此处报错是为未声明，而不是因为已经声明的变量用于解构赋值）
 
 ```
 
