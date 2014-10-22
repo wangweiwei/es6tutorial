@@ -48,7 +48,7 @@ tail // [2, 3, 4]
 
 var [foo] = [];
 var [foo] = 1;
-var [foo] = 'Hello';
+var [foo] = 'Hello';//此处会被分解成字符数组['H','e','l','l','o']，所以foo拿到的就是H这个字母
 var [foo] = false;
 var [foo] = NaN;
 var [bar, foo] = [1];
